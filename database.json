@@ -1,0 +1,722 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop ABC",
+      "price": 1200,
+      "description": "Powerful laptop with high performance",
+      "createdAt": "2024-04-11",
+      "status": true,
+      "image": "laptop.jpg",
+      "category": 1,
+      "vat": 0.08,
+      "discount": 0
+    },
+    {
+      "id": 2,
+      "name": "Smartphone XYZ",
+      "price": 800,
+      "description": "Feature-rich smartphone with great camera",
+      "createdAt": "2024-04-10",
+      "status": true,
+      "image": "smartphone.jpg",
+      "category": 2,
+      "vat": 0.08,
+      "discount": 0.2
+    },
+    {
+      "id": 3,
+      "name": "Laptop XYZ",
+      "price": 1500,
+      "description": "Ultra-thin and lightweight laptop",
+      "createdAt": "2024-04-09",
+      "status": false,
+      "image": "laptop1.jpg",
+      "category": 1,
+      "vat": 0.08,
+      "discount": 0
+    },
+    {
+      "id": 4,
+      "name": "Smartphone ABC",
+      "price": 1000,
+      "description": "High-speed smartphone with long battery life",
+      "createdAt": "2024-04-08",
+      "status": true,
+      "image": "smartphone1.jpg",
+      "category": 2,
+      "vat": 0.08,
+      "discount": 0
+    },
+    {
+      "id": 5,
+      "name": "Tablet PQR",
+      "price": 500,
+      "description": "Sleek and versatile tablet for productivity and entertainment",
+      "createdAt": "2024-04-11",
+      "status": true,
+      "image": "tablet.jpg",
+      "category": 3,
+      "vat": 0.08,
+      "discount": 0
+    },
+    {
+      "id": 6,
+      "name": "Smartwatch LMN",
+      "price": 300,
+      "description": "Stylish smartwatch with fitness tracking and notifications",
+      "createdAt": "2024-04-10",
+      "status": false,
+      "image": "smartwatch.jpg",
+      "category": 6,
+      "vat": 0.08,
+      "discount": 0
+    },
+    {
+      "id": 7,
+      "name": "Gaming Console XYZ",
+      "price": 600,
+      "description": "Next-gen gaming console for immersive gaming experiences",
+      "createdAt": "2024-04-09",
+      "status": true,
+      "image": "console.jpg",
+      "category": 4,
+      "vat": 0.08,
+      "discount": 0
+    },
+    {
+      "id": 8,
+      "name": "Laptop x ABC",
+      "price": 700,
+      "description": "High-resolution digital camera for capturing stunning photos",
+      "createdAt": "2024-04-08",
+      "status": false,
+      "image": "laptop2.jpg",
+      "category": 1,
+      "vat": 0.08,
+      "discount": 0
+    },
+    {
+      "id": 9,
+      "name": "Wireless Headphones DEF",
+      "price": 200,
+      "description": "Premium wireless headphones for immersive audio experiences",
+      "createdAt": "2024-04-07",
+      "status": true,
+      "image": "tablet1.jpg",
+      "category": 3,
+      "vat": 0.08,
+      "discount": 0
+    },
+    {
+      "id": 10,
+      "name": "External Hard Drive MNO",
+      "price": 150,
+      "description": "Reliable external hard drive for storing and backing up data",
+      "createdAt": "2024-04-06",
+      "status": false,
+      "image": "smartphone2.jpg",
+      "category": 2,
+      "vat": 0.08,
+      "discount": 0
+    },
+    {
+      "id": 11,
+      "name": "E-book Reader STU",
+      "price": 120,
+      "description": "Lightweight e-book reader with glare-free display",
+      "createdAt": "2024-04-05",
+      "status": true,
+      "image": "laptop3.jpg",
+      "category": 1,
+      "vat": 0.08,
+      "discount": 0
+    },
+    {
+      "id": 12,
+      "name": "Wireless Router XYZ",
+      "price": 80,
+      "description": "High-speed wireless router for seamless internet connectivity",
+      "createdAt": "2024-04-04",
+      "status": true,
+      "image": "router.jpg",
+      "category": 5,
+      "vat": 0.08,
+      "discount": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Laptop"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone"
+    },
+    {
+      "id": 3,
+      "name": "Tablet"
+    },
+    {
+      "id": 4,
+      "name": "Gaming"
+    },
+    {
+      "id": 5,
+      "name": "Networking"
+    },
+    {
+      "id": 6,
+      "name": "Smartwatch"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "email": "example1@example.com",
+      "password": "password1",
+      "DoB": "1990-05-15",
+      "gender": "male",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "example2@example.com",
+      "password": "password2",
+      "DoB": "1985-10-20",
+      "gender": "female",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "email": "example3@example.com",
+      "password": "password3",
+      "DoB": "2000-02-10",
+      "gender": "other",
+      "role": "user"
+    },
+    {
+      "email": "datchthk22@gmail.com",
+      "password": "datnbhe176137",
+      "dob": "2003-12-17",
+      "gender": "male",
+      "id": 4
+    },
+    {
+      "email": "1234@1234.com",
+      "password": "12345678",
+      "dob": "1111-11-11",
+      "gender": "male",
+      "id": 5
+    }
+  ],
+  "orderDetails": [
+    {
+      "id": 1,
+      "orderDate": "2022-01-01",
+      "requiredDate": "2022-01-15",
+      "customer": {
+        "custID": 2,
+        "fname": "Nguyen Ba",
+        "lname": "Dat",
+        "address": "Ha Noi",
+        "moble": "0123456789",
+        "email": "example2@example.com"
+      },
+      "products": [
+        {
+          "pId": 1,
+          "name": "Laptop ABC",
+          "price": 1200,
+          "quantity": 2,
+          "vat": 0.08,
+          "discount": 0
+        },
+        {
+          "pId": 2,
+          "name": "Smartphone XYZ",
+          "price": 800,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0.2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "orderDate": "2022-01-01",
+      "requiredDate": "2022-01-15",
+      "customer": {
+        "custID": 3,
+        "fname": "Nguyen Thanh",
+        "lname": "Dat",
+        "address": "Ha Noi",
+        "moble": "0123456789",
+        "email": "example3@example.com"
+      },
+      "products": [
+        {
+          "pId": 3,
+          "name": "Gaming PC DEF",
+          "price": 1800,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "orderDate": "2024-04-24",
+      "requiredDate": "2333-02-11",
+      "customer": {
+        "custID": 2,
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "123@123.123"
+      },
+      "products": [
+        {
+          "pId": 1,
+          "name": "Laptop ABC",
+          "price": 1200,
+          "vat": 0.08,
+          "discount": 0,
+          "quantity": 1
+        },
+        {
+          "pId": 2,
+          "name": "Smartphone XYZ",
+          "price": 800,
+          "vat": 0.08,
+          "discount": 0.2,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "38d2b1aa-58cf-4c01-bcd0-eed73fac79eb1",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-02-12",
+      "customer": {
+        "custID": 2,
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "123@123.com"
+      },
+      "products": [
+        {
+          "pId": 4,
+          "name": "Smartphone ABC",
+          "price": 1000,
+          "quantity": 13,
+          "vat": 0.08,
+          "discount": 0
+        }
+      ]
+    },
+    {
+      "id": "8c9849fb-7dba-4114-97a6-ec8be2a9917e",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-02-12",
+      "customer": {
+        "custID": 2,
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "123@123.com"
+      },
+      "products": [
+        {
+          "pId": 4,
+          "name": "Smartphone ABC",
+          "price": 1000,
+          "quantity": 13,
+          "vat": 0.08,
+          "discount": 0
+        }
+      ]
+    },
+    {
+      "id": "d73b15d3-39cb-479d-bc2a-b36bb5797626",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-02-12",
+      "customer": {
+        "custID": 2,
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "123@123.com"
+      },
+      "products": [
+        {
+          "pId": 4,
+          "name": "Smartphone ABC",
+          "price": 1000,
+          "quantity": 13,
+          "vat": 0.08,
+          "discount": 0
+        }
+      ]
+    },
+    {
+      "id": "a370f494-bb82-4a1b-9781-6aa75d52683e",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-02-22",
+      "customer": {
+        "custID": 2,
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "123@123.com"
+      },
+      "products": [
+        {
+          "pId": 1,
+          "name": "Laptop ABC",
+          "price": 1200,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0
+        },
+        {
+          "pId": 2,
+          "name": "Smartphone XYZ",
+          "price": 800,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0.2
+        },
+        {
+          "pId": 4,
+          "name": "Smartphone ABC",
+          "price": 1000,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0
+        }
+      ]
+    },
+    {
+      "id": "a6bf565d-c7fe-4819-a9b2-e6c5df7ec7cb",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-12-12",
+      "customer": {
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "123@123.123"
+      },
+      "products": [
+        {
+          "pId": 1,
+          "name": "Laptop ABC",
+          "price": 1200,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0
+        },
+        {
+          "pId": 2,
+          "name": "Smartphone XYZ",
+          "price": 800,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0.2
+        }
+      ]
+    },
+    {
+      "id": "c828b519-d59f-41a6-8438-d019e76ece22",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-02-12",
+      "customer": {
+        "custID": 2,
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "datchthk22@gmail.com"
+      },
+      "products": [
+        {
+          "pId": 4,
+          "name": "Smartphone ABC",
+          "price": 1000,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0
+        },
+        {
+          "pId": 2,
+          "name": "Smartphone XYZ",
+          "price": 800,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0.2
+        }
+      ]
+    },
+    {
+      "id": "448816a8-32b3-44c9-914d-b6f8baef62a5",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-12-12",
+      "customer": {
+        "custID": 2,
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "datchthk22@gmail.com"
+      },
+      "products": [
+        {
+          "pId": 2,
+          "name": "Smartphone XYZ",
+          "price": 800,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0.2
+        },
+        {
+          "pId": 12,
+          "name": "Wireless Router XYZ",
+          "price": 80,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0
+        }
+      ]
+    },
+    {
+      "id": "ae6bc596-32c6-4685-b381-11e558306344",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-02-12",
+      "customer": {
+        "custID": 2,
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "datchthk22@gmail.com"
+      },
+      "products": []
+    },
+    {
+      "id": "02a62253-791e-46ad-889d-e08196865dc3",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-02-11",
+      "customer": {
+        "custID": 2,
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "datchthk22@gmail.com"
+      },
+      "products": [
+        {
+          "pId": 2,
+          "name": "Smartphone XYZ",
+          "price": 800,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0.2
+        },
+        {
+          "pId": 1,
+          "name": "Laptop ABC",
+          "price": 1200,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0
+        }
+      ]
+    },
+    {
+      "id": "f20f5077-2f0d-497a-8493-bdcb40cc61ad",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-02-12",
+      "customer": {
+        "custID": 2,
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "datchthk22@gmail.com"
+      },
+      "products": [
+        {
+          "pId": 1,
+          "name": "Laptop ABC",
+          "price": 1200,
+          "quantity": 3,
+          "vat": 0.08,
+          "discount": 0
+        }
+      ]
+    },
+    {
+      "id": "ae27a882-2001-4bcb-b113-5b683de4bc22",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-02-12",
+      "customer": {
+        "fname": "afd",
+        "lname": "afd",
+        "address": "fad",
+        "mobile": "232e1",
+        "email": "Cggcg@dbab.com"
+      },
+      "products": [
+        {
+          "pId": 1,
+          "name": "Laptop ABC",
+          "price": 1200,
+          "quantity": 2,
+          "vat": 0.08,
+          "discount": 0
+        }
+      ]
+    },
+    {
+      "id": "470f45ea-872a-418e-9c1a-68288048dbb4",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-02-11",
+      "customer": {
+        "custID": 2,
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "datchthk22@gmail.com"
+      },
+      "products": [
+        {
+          "pId": 4,
+          "name": "Smartphone ABC",
+          "price": 1000,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0
+        },
+        {
+          "pId": 2,
+          "name": "Smartphone XYZ",
+          "price": 800,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0.2
+        }
+      ]
+    },
+    {
+      "id": "362e23c5-cb0b-4e39-a7a7-3b5c30fa65e1",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-02-12",
+      "customer": {
+        "custID": 2,
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "datchthk22@gmail.com"
+      },
+      "products": [
+        {
+          "pId": 1,
+          "name": "Laptop ABC",
+          "price": 1200,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0
+        },
+        {
+          "pId": 2,
+          "name": "Smartphone XYZ",
+          "price": 800,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0.2
+        }
+      ]
+    },
+    {
+      "id": "767dd06f-d547-4dfa-ac39-019ee2fdb6d5",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-02-12",
+      "customer": {
+        "custID": 2,
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "datchthk22@gmail.com"
+      },
+      "products": [
+        {
+          "pId": 1,
+          "name": "Laptop ABC",
+          "price": 1200,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0
+        }
+      ]
+    },
+    {
+      "id": "93ab6064-98d3-40ad-875c-b4a917820bce",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-02-22",
+      "customer": {
+        "custID": 2,
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "datchthk22@gmail.com"
+      },
+      "products": [
+        {
+          "pId": 1,
+          "name": "Laptop ABC",
+          "price": 1200,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0
+        }
+      ]
+    },
+    {
+      "id": "6cba2b67-aa08-4cff-a4f0-6a8feaf9d956",
+      "orderDate": "2024-04-24",
+      "requiredDate": "2222-02-12",
+      "customer": {
+        "custID": 2,
+        "fname": "123",
+        "lname": "123",
+        "address": "123",
+        "mobile": "123",
+        "email": "datchthk22@gmail.com"
+      },
+      "products": [
+        {
+          "pId": 1,
+          "name": "Laptop ABC",
+          "price": 1200,
+          "quantity": 1,
+          "vat": 0.08,
+          "discount": 0
+        }
+      ]
+    }
+  ]
+}
